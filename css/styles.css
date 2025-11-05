@@ -107,7 +107,7 @@ h2 {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  transition: color 250ms ease-in-out; /* Yumuşak geçiş */
+  transition: color 250ms ease-in-out; /* Soft transition */
 }
 
 .nav-link:hover,
@@ -128,7 +128,7 @@ h2 {
   padding: 24px 0;
   letter-spacing: 0.02em;
   color: var(--slate);
-  transition: color 250ms ease-in-out; /* Yumuşak geçiş */
+  transition: color 250ms ease-in-out;
 }
 .address-link:hover,
 .address-link:focus-visible {
@@ -136,6 +136,10 @@ h2 {
 }
 
 /* Main */
+.break {
+  display: block;
+}
+
 .main {
   background-color: var(--navy-blue);
   color: var(--white);
@@ -156,7 +160,7 @@ h2 {
   border-radius: 4px;
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms ease-in-out; /* buton renginin yavaş ve akıcı geçişi için ek olarak öğrendiğim bilgiyi kullandım */
+  transition: background-color 250ms ease-in-out;
 }
 
 .main-button:hover,
