@@ -88,14 +88,15 @@ h2 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.66;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
-  color: var(--navy-blue);
 }
 .logo-web {
   color: var(--iris);
 }
-
+.logo-studio {
+  color: var(--navy-blue);
+}
 /* Nav */
 .nav {
   display: flex;
