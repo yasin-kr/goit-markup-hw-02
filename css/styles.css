@@ -97,6 +97,9 @@ h2 {
 .logo-studio {
   color: var(--navy-blue);
 }
+.logo-studio-footer {
+  color: var(--cloud);
+}
 /* Nav */
 .nav {
   display: flex;
